@@ -10,5 +10,5 @@ function solve(s){
     }
 }
 
-let s=prompt("Enter a String");
+let s=prompt();
 alert(solve(s));
