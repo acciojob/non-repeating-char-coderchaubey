@@ -8,6 +8,8 @@ function solve(s){
     for(let a of s){
         if(hashTable[a]===1) return a;
     }
+	return null;
+	
 }
 
 let s=prompt();
